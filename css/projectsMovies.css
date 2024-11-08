@@ -1,14 +1,23 @@
-/* CSS para a seção 'Filmes e Projetos' */
+
+#section-films-and-projects {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/Background\ Premios\ &\ Conquistas.png);
+    background-size: 100%;
+}
+
+
+
 #section-films-and-projects {
     display: flex;
     align-items: flex-start;
     gap: 20px;
     padding: 20px;
-    background-color: #121212; /* Fundo escuro */
+    background-color: #121212; 
     position: relative;
 }
 
-/* Estilo do contêiner vermelho */
+
 #box-red {
     position: absolute;
     display: flex;
@@ -17,12 +26,12 @@
     padding: 10px;
     color: #333;
     width: 450px;
-    height: 1000px;
-    top: -100px;
+    height: 900px;
+    top: -170px;
     left: 100px;
 }
 
-/* Caixa dourada */
+
 .box-gold {
     display: flex;
     flex-direction: column;
@@ -57,7 +66,7 @@
 
 .box-movies {
     width: 1000px;
-    height: 500px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -126,11 +135,11 @@
     font-size: 50px;
     margin-bottom: 10px;
     font-family: Archivo;
-    color: hsl(268, 53%, 62%); 
+    color: #E0C488;; 
     font-size: 2em; 
     font-weight: bold;
     text-shadow: 
-        0 0 5px hsl(268, 53%, 62%); 
+        0 0 5px #E0C488;; 
     transition: transform 1s ease, text-shadow 1.5s ease;
 }
 
@@ -157,8 +166,8 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 800px;
-    left: 90vw;
+    top: 700px;
+    left: 96vw;
     align-items: center;
     text-align: center;
     justify-content: center;

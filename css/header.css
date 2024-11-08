@@ -163,7 +163,7 @@ form {
 #lupa {
     position: absolute;
     width: 30px; 
-    margin-left: 14rem;
+    margin-left: 18rem;
     height: auto; 
     pointer-events: none; 
 }
@@ -244,7 +244,7 @@ form {
     position: absolute;
     width: auto;
     height: 110vh;
-    left: 15rem;
+    left: 10rem;
     margin-bottom: 5rem;
     z-index: 1;
     user-select: none;
