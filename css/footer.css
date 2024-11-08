@@ -1,0 +1,148 @@
+#awards {
+    background-image: url(/img/TelaCine\(1\).png);
+    color: #ffffff;
+    font-family: 'Archivo', sans-serif;
+    background-size: 100%;
+    max-width: 64vw;
+    height: 65vh;
+    border: 20px solid #141312;
+    padding: 20px; 
+}
+
+#awards-title {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 4em;
+    color: #E0C488; 
+    margin-bottom: 20px;
+    margin-left: 20rem;
+}
+
+#awards p {
+    font-size: 1.5em;
+    margin: 0 auto 40px;
+    line-height: 1.3em; 
+    margin: 10px 5%;
+    padding-top: 20px;
+    text-shadow: 0.1em 0.1em #000;
+}
+
+
+.movieScreen ul {
+    list-style-type: none;
+    padding: 0px 25px;
+}
+
+#movieScreen li {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    margin-left: 5px;
+    text-shadow: 0.1em 0.1em #000;
+    transition: color 0.5s ease, transform 0.3s ease;
+}
+
+
+.movieScreen ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movieScreen li {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    text-shadow: 0.1em 0.1em #000;
+    transition: color 0.5s ease, transform 0.3s ease;
+    width: 100%;
+    max-width: 80%; /* Para limitar a largura */
+}
+
+.movieScreen li span:first-child {
+    width: 150px; 
+    text-align: right; 
+    margin-right: 10px; 
+}
+
+.movieScreen li span:last-child {
+    text-align: left;
+}
+
+
+.movieScreen li:hover {
+    color: #B0A28F; 
+    transform: scale(1.05); 
+}
+
+
+.movieScreen li img {
+    width: 20px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+
+.movieScreen .icons-gold {
+   font-weight: bold;
+   color: #E0C488; 
+}
+
+.footer {
+    font-family: 'Archivo', sans-serif;
+    width: 100vw;
+    height: 95vh;
+    background-image: url(/img/Background\ Premios\ &\ Conquistas.png);
+    background-size: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.holly {
+    height: 150px;
+}
+
+.copyright {
+    font-size: 1em;
+    text-align: center;
+    color: #E0C488;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#linha {
+    border: none; 
+    border-top: 1px solid #E0C488; 
+    margin: 0; 
+    margin-top: 30px;
+    width: 13%;
+}
+
+.movieScreen li img {
+    width: 35px; 
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 10px;
+}
+
+.movieScreen span {
+    margin-left: 30px;
+}
+
+#txt-emmy {
+    margin-right: 50px;
+}
+
+#txt-walk-of-fame {
+    margin-right: 20px;
+}

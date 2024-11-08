@@ -1,0 +1,193 @@
+/* Tópicos */
+
+.nav-topics {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    background-color: #1c1c1c; 
+    color: #d3b87d; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    margin: 0;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.box-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%); 
+    transition: filter 0.3s ease;
+    z-index: 1;
+}
+
+.box-img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 30px;
+    margin-top: 200px;
+    border: 2.5px solid #E0C488;
+    font-size: 4rem;
+
+}
+
+.box-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%); 
+    z-index: 1;
+}
+
+.box-img:hover img {
+    filter: grayscale(0%); 
+}
+
+.box-img:hover span {
+    color: rgba(0, 0, 0, 0.9);  
+    transition: color 0.5s ease; 
+}
+
+.box-img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.5s ease; 
+}
+
+.box-img span {
+    position: relative;
+    z-index: 2;
+    color: rgba(0, 0, 0, 0.5); 
+    font-family: 'Source Serif 4';
+    color: #474545;
+    text-shadow: 
+        -1px -1px 0 #E0C488,
+         1px -1px 0 #E0C488,
+        -1px  1px 0 #E0C488,
+         1px  1px 0 #E0C488;
+}
+
+
+.title-topics {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 4em;
+    color: #E0C488;
+    text-align: center;
+    margin-bottom: 20px;
+    top: 10rem; 
+    line-height: auto;
+    align-items: center;
+    position: absolute;
+}
+
+
+/* Biografia */
+
+#biography {
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#biography h2 {
+    font-family: 'Source Serif 4';
+    color: #d3b87d;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#biography-paragraphs {
+    color: #fff;
+    width: 800px;
+    text-align: justify;
+    font-family: 'Archivo';
+    line-height: 30px;
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+#biography table {
+    border: solid 3px #fff;
+    font-family: 'Archivo';
+    color: #fff;
+    height: auto;
+    width: 450px;
+    line-height: 40px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    margin-top: 300px;
+    padding: 15px 0px;
+}
+
+#biography tr, td {
+    padding: 0px 20px;
+}
+
+#biography img {
+    width: 150%;
+    margin-left: 40%;
+}
+
+.line {
+    border: none;
+    height: 1px;
+    background-color: #E0C488; 
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 0 10px rgba(224, 196, 136, 0.8), 
+                0 0 20px rgba(212, 0, 255, 0.5); 
+    filter: blur(0.5px); 
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* Filmes e Projetos */
+
+#section-films-and-projects {
+    width: 100vw;
+    height: 95vh;
+    background-image: url(/img/Background\ Premios\ &\ Conquistas.png);
+    background-size: 100%;
+}
+
