@@ -75,7 +75,6 @@ a {
     position: relative;
     transition: color 0.3s;
     font-family: Philosopher;
-    user-select: none;
 }
 
 .menu li a:hover {
@@ -168,7 +167,6 @@ form {
     color:#fff;
     font-family: Philosopher;
     font-weight: 600;      
-    user-select: none;
 }
 
 #contact {
@@ -181,7 +179,6 @@ form {
     margin-left: 50px;
     font-size: 10rem;
     font-family: Philosopher;
-    user-select: none;
 }
 
 .header {
@@ -291,7 +288,6 @@ form {
     left: 10rem;
     margin-bottom: 5rem;
     z-index: 1;
-    user-select: none;
 }
 
 #introducao-text {
@@ -313,6 +309,7 @@ form {
 }
 
 /* Tópicos */
+
 .nav-topics {
     display: flex;
     position: relative;
